@@ -103,7 +103,6 @@
             operator: "Equals",
             values: ["<?php echo $cnpj; ?>"]
         };
-
         var models = window['powerbi-client'].models;
         var embedConfiguration = {
             type: 'report',
