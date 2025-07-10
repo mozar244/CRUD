@@ -94,8 +94,15 @@
         console.log("Iniciando incorporação");
         console.log("CNPJ usado no filtro: <?php echo $cnpj; ?>");
 
-       };
-
+        var IamAFilter = {
+            $schema: "http://powerbi.com/product/schema#basic",
+            target: {
+                table: "Dim_Municípios", // Corrigido para a tabela correta
+                column: "cnpj" // Coluna confirmada na imagem
+            },
+            operator: "Equals",
+            values: ["<?php echo $cnpj; ?>"]
+        };
         var models = window['powerbi-client'].models;
         var embedConfiguration = {
             type: 'report',
