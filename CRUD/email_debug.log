@@ -1,0 +1,260 @@
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-223504c5a33sm114102945ad.153 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14c:bb8d:44c7:48c5:6c7f:7f84:174c]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14c:bb8d:44c7:48c5:6c7f:7f84:174c]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-223504c5a33sm114102945ad.153 - gsmtp
+
+[1] SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-223504c5a33sm114102945ad.153 - gsmtp
+
+[2] SMTP Error: Could not authenticate.
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-223504c5a33sm114102945ad.153 - gsmtp
+
+[2] SMTP Error: Could not authenticate.
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-7364313d7bfsm7553794b3a.161 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14c:bb8d:44c7:48c5:6c7f:7f84:174c]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14c:bb8d:44c7:48c5:6c7f:7f84:174c]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7364313d7bfsm7553794b3a.161 - gsmtp
+
+[1] SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7364313d7bfsm7553794b3a.161 - gsmtp
+
+[2] SMTP Error: Could not authenticate.
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-7364313d7bfsm7553794b3a.161 - gsmtp
+
+[2] SMTP Error: Could not authenticate.
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-223501d27fasm116433375ad.18 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14c:bb8d:44c7:48c5:6c7f:7f84:174c]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14c:bb8d:44c7:48c5:6c7f:7f84:174c]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-223501d27fasm116433375ad.18 - gsmtp
+
+[1] SMTP ERROR: Password command failed: 534-5.7.9 Application-specific password required. For more information, go to
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-223501d27fasm116433375ad.18 - gsmtp
+
+[2] SMTP Error: Could not authenticate.
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-223501d27fasm116433375ad.18 - gsmtp
+
+[2] SMTP Error: Could not authenticate.
+[2] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2ff4e78af4fsm1607700a91.27 - gsmtp
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14c:bb8d:44c7:48c5:6c7f:7f84:174c]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: STARTTLS
+
+[2] SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[1] CLIENT -> SERVER: EHLO localhost
+
+[2] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2804:14c:bb8d:44c7:48c5:6c7f:7f84:174c]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[1] CLIENT -> SERVER: AUTH LOGIN
+
+[2] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[1] CLIENT -> SERVER: [credentials hidden]
+[2] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[1] CLIENT -> SERVER: MAIL FROM:<mozarguimaraesjr@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.0 OK 98e67ed59e1d1-2ff4e78af4fsm1607700a91.27 - gsmtp
+
+[1] CLIENT -> SERVER: RCPT TO:<mozarguimaraesjr@gmail.com>
+
+[2] SERVER -> CLIENT: 250 2.1.5 OK 98e67ed59e1d1-2ff4e78af4fsm1607700a91.27 - gsmtp
+
+[1] CLIENT -> SERVER: DATA
+
+[2] SERVER -> CLIENT: 354 Go ahead 98e67ed59e1d1-2ff4e78af4fsm1607700a91.27 - gsmtp
+
+[1] CLIENT -> SERVER: Date: Wed, 5 Mar 2025 18:30:16 +0100
+
+[1] CLIENT -> SERVER: To: mozarguimaraesjr@gmail.com
+
+[1] CLIENT -> SERVER: From: Sistema PCM <mozarguimaraesjr@gmail.com>
+
+[1] CLIENT -> SERVER: Subject: =?iso-8859-1?Q?Questionario_Finalizado_-_Abadi=C3=A2nia?=
+
+[1] CLIENT -> SERVER: Message-ID: <4Sh5Uw2ORhgFmOvf32bV7QeuZs8ZlqehtUYSSZShPI@localhost>
+
+[1] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[1] CLIENT -> SERVER: MIME-Version: 1.0
+
+[1] CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+[1] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: CNPJ: 98765432000199
+
+[1] CLIENT -> SERVER: Municipio: Abadiânia
+
+[1] CLIENT -> SERVER: Mensagem: Finalizou o questionario
+
+[1] CLIENT -> SERVER: Data de Finalizacao: 05/03/2025 15:49:06
+
+[1] CLIENT -> SERVER: 
+
+[1] CLIENT -> SERVER: .
+
+[2] SERVER -> CLIENT: 250 2.0.0 OK  1741195818 98e67ed59e1d1-2ff4e78af4fsm1607700a91.27 - gsmtp
+
+[1] CLIENT -> SERVER: QUIT
+
+[2] SERVER -> CLIENT: 221 2.0.0 closing connection 98e67ed59e1d1-2ff4e78af4fsm1607700a91.27 - gsmtp
+
+[1] SMTP ERROR: Failed to connect to server: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[1] SMTP ERROR: Failed to connect to server: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[1] SMTP ERROR: Failed to connect to server: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[1] SMTP ERROR: Failed to connect to server: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[1] SMTP ERROR: Failed to connect to server: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[1] SMTP ERROR: Failed to connect to server: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[1] SMTP ERROR: Failed to connect to server: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu (10060)
+[2] SMTP Error: Could not connect to SMTP host. Failed to connect to server
