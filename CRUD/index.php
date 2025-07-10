@@ -11,13 +11,6 @@ include "inc_valida_secao.php";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="icon" type="image/png" href="capa.png">
     <style>
-        body {
-            background: linear-gradient(to bottom right, #013220, #013824);
-            font-family: Arial, sans-serif;
-            min-height: 100vh;
-            padding: 20px;
-            color: #FFD700;
-        }
         h3, h4 {
             color: #FFD700 !important;
         }
